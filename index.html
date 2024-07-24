@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSPy Sentiment Analysis Workflow</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>DSPy Sentiment Analysis Workflow</h1>
+        <div class="flowchart">
+            <div class="bubble" id="bubble1">1. Setup</div>
+            <div class="arrow"></div>
+            <div class="bubble" id="bubble2">2. Define Signature</div>
+            <div class="arrow"></div>
+            <div class="bubble" id="bubble3">3. Prepare Data</div>
+            <div class="arrow"></div>
+            <div class="bubble" id="bubble4">4. Define Metric</div>
+            <div class="arrow"></div>
+            <div class="bubble" id="bubble5">5. Create Optimizer</div>
+            <div class="arrow"></div>
+            <div class="bubble" id="bubble6">6. Compile Predictor</div>
+            <div class="arrow"></div>
+            <div class="bubble" id="bubble7">7. Evaluate</div>
+            <div class="arrow"></div>
+            <div class="bubble" id="bubble8">8. Use Predictor</div>
+        </div>
+    </div>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h2 id="popup-title"></h2>
+            <div id="popup-body"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
